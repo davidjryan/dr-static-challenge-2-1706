@@ -32,7 +32,7 @@ align-items: flex-end;
 
 .img-wave {
   margin-bottom: 35px;
-  margin-right: -15px;
+  margin-right: -60px;
 }
 
 .nav-logo {
@@ -47,14 +47,14 @@ align-items: flex-end;
 .main-logo {
   height: 200px;
   width: 310px;
-  max-height: 80%;
-  max-width: 60%;
+  max-height: 125px;
+  max-width: 190px;
   align-self:flex-end;
 }
 
 .nav-text {
   height: 55px;
-  width: 25%;
+  width: 15%;
   background-color: black;
   border: none;
   color: #2ea3f2;
@@ -207,11 +207,19 @@ a {
   .nav-logo {
     width: 30%;
   }
+
+  .img-wave {
+    margin-right: -35px;
+  }
 }
 
 @media (max-width: 620px) {
   .nav-logo {
     width: 40%;
+  }
+
+  .img-wave {
+    margin-right: -20px;
   }
 }
 
@@ -233,7 +241,9 @@ a {
   }
 
   .main-logo {
-    margin-left: 37%;
+    margin-left: 36%;
+    max-width: 71%;
+    min-height: 65%;
   }
 
   .account-text {
@@ -242,11 +252,6 @@ a {
 
   header {
     flex-direction: column;
-  }
-
-  .main-logo {
-    max-width: 70%;
-    min-height: 70%;
   }
 
 }
